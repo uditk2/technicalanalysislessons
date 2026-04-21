@@ -1,4 +1,4 @@
-# Day 1:  The Intuition
+# Chapter 1:  The Intuition
 
 The first thing I want to learn behind technical analysis is the intuition behind it and why it works. 
 Is it a scientific technique or just a collection of observations ?
