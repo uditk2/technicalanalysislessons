@@ -1,0 +1,75 @@
+<svg width="100%" viewBox="0 0 680 640" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Comparison of line, bar, and candlestick charts</title>
+<desc>Same price data shown three ways: as a line chart, an OHLC bar chart, and a candlestick chart</desc>
+<style>
+.t { font-family: sans-serif; font-size: 14px; fill: #2C2C2A; }
+.ts { font-family: sans-serif; font-size: 12px; fill: #5F5E5A; }
+.th { font-family: sans-serif; font-size: 14px; font-weight: 500; fill: #2C2C2A; }
+</style>
+
+<!-- LINE CHART -->
+<text class="th" x="40" y="30">Line chart</text>
+<text class="ts" x="40" y="48">Closing prices only</text>
+<rect x="40" y="60" width="600" height="130" fill="none" stroke="#D3D1C7" stroke-width="0.5"/>
+<polyline points="80,150 140,130 200,110 260,135 320,95 380,115 440,80 500,105 560,70 620,90" fill="none" stroke="#378ADD" stroke-width="1.5"/>
+<circle cx="80" cy="150" r="2.5" fill="#378ADD"/>
+<circle cx="140" cy="130" r="2.5" fill="#378ADD"/>
+<circle cx="200" cy="110" r="2.5" fill="#378ADD"/>
+<circle cx="260" cy="135" r="2.5" fill="#378ADD"/>
+<circle cx="320" cy="95" r="2.5" fill="#378ADD"/>
+<circle cx="380" cy="115" r="2.5" fill="#378ADD"/>
+<circle cx="440" cy="80" r="2.5" fill="#378ADD"/>
+<circle cx="500" cy="105" r="2.5" fill="#378ADD"/>
+<circle cx="560" cy="70" r="2.5" fill="#378ADD"/>
+<circle cx="620" cy="90" r="2.5" fill="#378ADD"/>
+
+<!-- BAR CHART (OHLC) -->
+<text class="th" x="40" y="230">Bar chart (OHLC)</text>
+<text class="ts" x="40" y="248">Open, high, low, close as ticks on a vertical bar</text>
+<rect x="40" y="260" width="600" height="130" fill="none" stroke="#D3D1C7" stroke-width="0.5"/>
+<g stroke="#3B6D11" stroke-width="1.2" fill="none">
+<line x1="80" y1="305" x2="80" y2="365"/><line x1="74" y1="360" x2="80" y2="360"/><line x1="80" y1="315" x2="86" y2="315"/>
+<line x1="140" y1="290" x2="140" y2="345"/><line x1="134" y1="340" x2="140" y2="340"/><line x1="140" y1="300" x2="146" y2="300"/>
+<line x1="200" y1="280" x2="200" y2="325"/><line x1="194" y1="320" x2="200" y2="320"/><line x1="200" y1="285" x2="206" y2="285"/>
+</g>
+<g stroke="#A32D2D" stroke-width="1.2" fill="none">
+<line x1="260" y1="290" x2="260" y2="345"/><line x1="254" y1="300" x2="260" y2="300"/><line x1="260" y1="340" x2="266" y2="340"/>
+</g>
+<g stroke="#3B6D11" stroke-width="1.2" fill="none">
+<line x1="320" y1="275" x2="320" y2="315"/><line x1="314" y1="310" x2="320" y2="310"/><line x1="320" y1="280" x2="326" y2="280"/>
+</g>
+<g stroke="#A32D2D" stroke-width="1.2" fill="none">
+<line x1="380" y1="285" x2="380" y2="330"/><line x1="374" y1="295" x2="380" y2="295"/><line x1="380" y1="325" x2="386" y2="325"/>
+</g>
+<g stroke="#3B6D11" stroke-width="1.2" fill="none">
+<line x1="440" y1="260" x2="440" y2="300"/><line x1="434" y1="295" x2="440" y2="295"/><line x1="440" y1="265" x2="446" y2="265"/>
+<line x1="500" y1="275" x2="500" y2="320"/><line x1="494" y1="315" x2="500" y2="315"/><line x1="500" y1="285" x2="506" y2="285"/>
+<line x1="560" y1="255" x2="560" y2="290"/><line x1="554" y1="285" x2="560" y2="285"/><line x1="560" y1="260" x2="566" y2="260"/>
+<line x1="620" y1="270" x2="620" y2="305"/><line x1="614" y1="300" x2="620" y2="300"/><line x1="620" y1="275" x2="626" y2="275"/>
+</g>
+
+<!-- CANDLESTICK CHART -->
+<text class="th" x="40" y="430">Candlestick chart</text>
+<text class="ts" x="40" y="448">Same data as bar chart, but body is filled between open and close</text>
+<rect x="40" y="460" width="600" height="150" fill="none" stroke="#D3D1C7" stroke-width="0.5"/>
+<line x1="80" y1="505" x2="80" y2="565" stroke="#3B6D11" stroke-width="1"/>
+<rect x="74" y="515" width="12" height="45" fill="#97C459" stroke="#3B6D11" stroke-width="0.5"/>
+<line x1="140" y1="490" x2="140" y2="545" stroke="#3B6D11" stroke-width="1"/>
+<rect x="134" y="500" width="12" height="40" fill="#97C459" stroke="#3B6D11" stroke-width="0.5"/>
+<line x1="200" y1="480" x2="200" y2="525" stroke="#3B6D11" stroke-width="1"/>
+<rect x="194" y="485" width="12" height="35" fill="#97C459" stroke="#3B6D11" stroke-width="0.5"/>
+<line x1="260" y1="490" x2="260" y2="545" stroke="#A32D2D" stroke-width="1"/>
+<rect x="254" y="500" width="12" height="40" fill="#E24B4A" stroke="#A32D2D" stroke-width="0.5"/>
+<line x1="320" y1="475" x2="320" y2="515" stroke="#3B6D11" stroke-width="1"/>
+<rect x="314" y="480" width="12" height="30" fill="#97C459" stroke="#3B6D11" stroke-width="0.5"/>
+<line x1="380" y1="485" x2="380" y2="530" stroke="#A32D2D" stroke-width="1"/>
+<rect x="374" y="495" width="12" height="30" fill="#E24B4A" stroke="#A32D2D" stroke-width="0.5"/>
+<line x1="440" y1="460" x2="440" y2="500" stroke="#3B6D11" stroke-width="1"/>
+<rect x="434" y="465" width="12" height="30" fill="#97C459" stroke="#3B6D11" stroke-width="0.5"/>
+<line x1="500" y1="475" x2="500" y2="520" stroke="#3B6D11" stroke-width="1"/>
+<rect x="494" y="485" width="12" height="30" fill="#97C459" stroke="#3B6D11" stroke-width="0.5"/>
+<line x1="560" y1="455" x2="560" y2="490" stroke="#3B6D11" stroke-width="1"/>
+<rect x="554" y="460" width="12" height="25" fill="#97C459" stroke="#3B6D11" stroke-width="0.5"/>
+<line x1="620" y1="470" x2="620" y2="505" stroke="#3B6D11" stroke-width="1"/>
+<rect x="614" y="475" width="12" height="25" fill="#97C459" stroke="#3B6D11" stroke-width="0.5"/>
+</svg>

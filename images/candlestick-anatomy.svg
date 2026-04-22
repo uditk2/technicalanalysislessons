@@ -1,0 +1,53 @@
+<svg width="100%" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Anatomy of bullish and bearish candlesticks</title>
+<desc>Diagram showing the parts of a candlestick: upper wick, body, lower wick, open and close</desc>
+<style>
+.t { font-family: sans-serif; font-size: 14px; fill: #2C2C2A; }
+.ts { font-family: sans-serif; font-size: 12px; fill: #5F5E5A; }
+.th { font-family: sans-serif; font-size: 14px; font-weight: 500; fill: #2C2C2A; }
+.leader { stroke: #888780; stroke-width: 0.5; stroke-dasharray: 2 2; fill: none; }
+</style>
+
+<!-- BULLISH CANDLE -->
+<text class="th" x="180" y="40" text-anchor="middle">Bullish candle</text>
+<text class="ts" x="180" y="58" text-anchor="middle">Close is higher than open</text>
+
+<line x1="180" y1="90" x2="180" y2="130" stroke="#3B6D11" stroke-width="1.2"/>
+<rect x="164" y="130" width="32" height="120" fill="#97C459" stroke="#3B6D11" stroke-width="0.8"/>
+<line x1="180" y1="250" x2="180" y2="290" stroke="#3B6D11" stroke-width="1.2"/>
+
+<line class="leader" x1="110" y1="90" x2="175" y2="90"/>
+<text class="ts" x="105" y="94" text-anchor="end">High</text>
+<line class="leader" x1="110" y1="130" x2="160" y2="130"/>
+<text class="ts" x="105" y="134" text-anchor="end">Close</text>
+<line class="leader" x1="110" y1="250" x2="160" y2="250"/>
+<text class="ts" x="105" y="254" text-anchor="end">Open</text>
+<line class="leader" x1="110" y1="290" x2="175" y2="290"/>
+<text class="ts" x="105" y="294" text-anchor="end">Low</text>
+
+<line class="leader" x1="250" y1="110" x2="200" y2="110"/>
+<text class="ts" x="255" y="114">Upper wick</text>
+<line class="leader" x1="250" y1="190" x2="200" y2="190"/>
+<text class="ts" x="255" y="194">Body (bullish)</text>
+<line class="leader" x1="250" y1="270" x2="200" y2="270"/>
+<text class="ts" x="255" y="274">Lower wick</text>
+
+<!-- BEARISH CANDLE -->
+<text class="th" x="500" y="40" text-anchor="middle">Bearish candle</text>
+<text class="ts" x="500" y="58" text-anchor="middle">Close is lower than open</text>
+
+<line x1="500" y1="90" x2="500" y2="130" stroke="#A32D2D" stroke-width="1.2"/>
+<rect x="484" y="130" width="32" height="120" fill="#E24B4A" stroke="#A32D2D" stroke-width="0.8"/>
+<line x1="500" y1="250" x2="500" y2="290" stroke="#A32D2D" stroke-width="1.2"/>
+
+<line class="leader" x1="430" y1="90" x2="495" y2="90"/>
+<text class="ts" x="425" y="94" text-anchor="end">High</text>
+<line class="leader" x1="430" y1="130" x2="480" y2="130"/>
+<text class="ts" x="425" y="134" text-anchor="end">Open</text>
+<line class="leader" x1="430" y1="250" x2="480" y2="250"/>
+<text class="ts" x="425" y="254" text-anchor="end">Close</text>
+<line class="leader" x1="430" y1="290" x2="495" y2="290"/>
+<text class="ts" x="425" y="294" text-anchor="end">Low</text>
+
+<text class="ts" x="340" y="355" text-anchor="middle">The wicks show where price went during the period. The body shows where it settled.</text>
+</svg>
