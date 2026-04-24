@@ -211,7 +211,7 @@ Let's apply everything above to a concrete scenario.
 
 | Metric | Value |
 |---|---|
-| Current Price | ₹240 |
+| Closing Price | ₹240 |
 | Today's Open | ₹200 |
 | Today's High | ₹245 |
 | Today's Low | ₹198 |
