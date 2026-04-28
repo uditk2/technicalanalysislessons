@@ -1,4 +1,4 @@
-# Chapter 3 : Learning the different technical terms and the intuition behind them
+# Chapter 3 : Part 1 - Learning the different technical terms and the intuition behind them
 
 In this chapter, I would first like to learn the different technical terms that are there and the intuition behind these terms. What they represent and how do they help ? Hearing their values should give me an indication that is necessary to evaluate a stock technically.
 
