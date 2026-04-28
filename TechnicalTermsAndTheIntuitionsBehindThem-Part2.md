@@ -550,7 +550,3 @@ This entire multi-signal framework is what Tier 2 has been building toward.
 | RSI below 30 in strong downtrend | Don't buy — falling knife. Wait for confirmation. |
 | MACD whipsawing in sideways market | Switch to RSI; ignore MACD until trend emerges |
 | Old resistance broken on high volume, then retested | Classic role-reversal buy setup |
-
----
-
-*End of Tier 2 reference.*
